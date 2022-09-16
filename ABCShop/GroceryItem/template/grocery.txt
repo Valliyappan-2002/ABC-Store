@@ -1,0 +1,22 @@
+
+
+<html>
+
+<head>
+   <title> Grocery Item Entry </title>
+</head>
+
+
+<body align = "center">
+     <form action = ''  method = post  align = center>
+       {% csrf_token %}
+        <table align = center>
+          {{ form }}
+         </table>
+         <input type = 'submit'  value = 'Make Entry'> <br>  <br>
+      </form>
+      <a href = "../dispEntry/"><button>Display Entries</button></a>
+</body>
+
+
+</html>

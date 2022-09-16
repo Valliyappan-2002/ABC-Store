@@ -1,0 +1,34 @@
+
+
+<html>
+
+<head>
+  <title>Grocery Items Record</title>
+</head>
+
+
+<body align = "center">
+  <table border = '2px' align = "center">
+   <tr>
+   <th>Name</th>
+   <th>Type</th>
+   <th>Quantity</th>
+   <th>RPU</th>
+   <th>Amount</th>
+   </tr>
+   {% for each in lst %}
+   <tr>
+       <td>{{ each.name }}</td>
+       <td>{{ each.typ }}</td>
+       <td>{{ each.quantity }}</td>
+       <td>{{ each.rpu }} </td>
+       <td>{{ each.amount }} </td>
+   </tr>
+   {% endfor %}
+  </table> 
+  <br>
+  <a href = "../makeEntry"><button> Back </button></a>
+  
+</body>
+
+</html>
