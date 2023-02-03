@@ -12,3 +12,4 @@ Open broweser and put
     -> "localhost:8000/grocery/makeEntry/" to make entries in the shop
     -> "localhost:8000/grocery/dispEntry/" to display entries in the shop
     
+Happy Web Hosting..!
