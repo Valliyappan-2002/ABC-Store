@@ -13,4 +13,4 @@ Open broweser and put
     -> "localhost:8000/grocery/dispEntry/" to display entries in the shop
     
 Happy Web Hosting..!
-Oh OH OH
+Oh OH 
